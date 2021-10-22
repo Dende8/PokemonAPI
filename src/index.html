@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="container__header">
+            <div class="header__box">
+                <img class="header__img" src="../src/app/assets/logo.png" alt="Pokemon Logo">
+            </div>
+        </header>
+        <main class="container__main">
+            <div class="main__cardBox">
+                <figure class="big__card">
+                    <img class="big__cardImg" src="" alt="">
+                    <figcaption class="bigCard__caption">
+                        <span class="bigCardCaption__style"></span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="main__dataCardBox">
+                <div class="big__dataCard">
+                    <div class="big__dataCardTop">
+                        <div class="dataCard__name">
+                            <span class="name__value"></span>
+                        </div>
+                        <div class="dataCard__stats">
+                            <div class="stats__value">
+                                <span class="value__text">Hp</span>
+                                <span id="hp" class="value__content"></span>
+                            </div>
+                            <div class="stats__value">
+                                <span class="value__text">Exp.</span>
+                                <span id="exp" class="value__content"></span>
+                            </div>
+                            <div class="stats__value">
+                                <span class="value__text">Att.</span>
+                                <span id="att" class="value__content"></span>
+                            </div>
+                            <div class="stats__value">
+                                <span class="value__text">Def.</span>
+                                <span id="def" class="value__content"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="big__dataCardBottom">
+                        <div class="dataCard__moreInfo">
+                            <span id="abilities" class="moreInfo__value"></span>
+                        </div>
+                        <div class="dataCard__moreInfo">
+                            <span id="types" class="moreInfo__value"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute__box">
+                <nav class="container__nav">
+                    <div class="nav__left">
+                        <img class="leftArrow__img" src="../src/app/assets/left-arrow.svg" alt="Left Arrow">
+                    </div>
+                    <div class="nav__imgBox">
+                        <img class="nav__img" src="../src/app/assets/pokeball.svg" alt="Pokeball Image">
+                    </div>
+                    <div class="nav__right">
+                        <img class="rightArrow__img" src="../src/app/assets/right-arrow.svg" alt="Right Arrow">
+                    </div>
+                    <div class="nav__menuBox">
+                        <div class="nav__div">
+                            <div class="contact__box">
+                                <span class="contact__text">@</span>
+                            </div>
+                            <div class="numeral__box">
+                                <span class="numeral__text">#</span>
+                            </div>
+                            <div class="input__box">
+                                <input class="input__text" type="text" id="inputText" placeholder="Pokemon name">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <footer>
+
+                </footer>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
